@@ -7,7 +7,7 @@ class Machine extends React.Component {
     return (
       <div className="Machine">
         <p>{s1} {s2} {s3}</p>
-        <p>{winner ? 'Winner!' : 'Loser!'}</p>
+        <p style={{fontSize: '55px' }}>{winner ? 'Winner!' : 'Loser!'}</p>
       </div>
     )
   }
